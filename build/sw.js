@@ -2,12 +2,14 @@
  importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
  console.log("workbox ready",workbox); 
 
- workbox.routing.registerRoute(
+ workbox.precaching.precacheAndRoute([]);
+
+ /* workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
     workbox.strategies.cacheFirst({
       cacheName: 'User-cache',
     })
-); 
+);  */
 
 /* workbox.routing.registerRoute(
     new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
