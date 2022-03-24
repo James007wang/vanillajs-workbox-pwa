@@ -1,4 +1,5 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
+//ver 01
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
 workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
