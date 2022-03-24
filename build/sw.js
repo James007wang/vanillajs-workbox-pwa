@@ -21,7 +21,7 @@ workbox.routing.registerRoute(
     }),
   );
 
-workbox.precaching.precacheAndRoute([
+/* workbox.precaching.precacheAndRoute([
   {
     "url": "css/main.css",
     "revision": "nul"
@@ -33,4 +33,4 @@ workbox.precaching.precacheAndRoute([
     "url": "js/app.js",
     "revision": "null"
   }
-]);
+]); */

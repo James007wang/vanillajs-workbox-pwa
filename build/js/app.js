@@ -15,7 +15,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
         return people.map(function(person) {
             let li = createNode('li')
-                span = createNode('span');
+            let  span = createNode('span');
 
             li.innerHTML = person.name;
             span.innerHTML = person.email;
