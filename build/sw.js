@@ -2,10 +2,10 @@
  importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
  console.log("workbox ready",workbox); 
 
-/* workbox.routing.registerRoute(
+ workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
     workbox.strategies.cacheFirst()
-); */
+); 
 
 /* workbox.routing.registerRoute(
     new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
