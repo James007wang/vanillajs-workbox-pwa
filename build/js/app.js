@@ -25,3 +25,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
         });
     })
+    .catch(err => {
+        console.log(err.message)
+
+    })
