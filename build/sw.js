@@ -12,13 +12,13 @@
     "revision": "null"
   }
  ]);
-/* 
+
  workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
     new workbox.strategies.CacheFirst({
       cacheName: 'User-cache',
     })
-);  */
+); 
 
 /* workbox.routing.registerRoute(
     new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
