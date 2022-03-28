@@ -4,12 +4,12 @@
 
  workbox.precaching.precacheAndRoute([]);
 
- /* workbox.routing.registerRoute(
+ workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
     workbox.strategies.cacheFirst({
       cacheName: 'User-cache',
     })
-);  */
+); 
 
 /* workbox.routing.registerRoute(
     new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
