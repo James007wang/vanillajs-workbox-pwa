@@ -2,7 +2,12 @@
  importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
  console.log("workbox ready",workbox); 
 
- workbox.precaching.precacheAndRoute([]);
+ workbox.precaching.precacheAndRoute([
+  {
+    "url": "index.html",
+     "revision": "null" 
+  }
+ ]);
 /* 
  workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
@@ -32,8 +37,8 @@
     "revision": "nul"
   },
   {
-    "url": "index.html",
-    "revision": "null"
+   "url": "index.html",
+    "revision": "null" 
   {
     "url": "js/app.js",
     "revision": "null"
