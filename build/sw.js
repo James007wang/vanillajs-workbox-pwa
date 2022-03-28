@@ -16,7 +16,7 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst({
       cacheName: 'google-fonts',
       plugins: [
-        new workbox.expiration.Plugin({
+        workbox.expiration.Plugin({
           maxEntries: 5,
         }),
         new workbox.cacheableResponse.Plugin({
