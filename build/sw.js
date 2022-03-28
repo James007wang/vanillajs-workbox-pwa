@@ -6,6 +6,10 @@
   {
     "url": "index.html",
      "revision": "null" 
+  },
+  {
+    "url": "js/app.js",
+    "revision": "null"
   }
  ]);
 /* 
