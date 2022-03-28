@@ -6,7 +6,7 @@
 
  workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
-    new workbox.strategies.cacheFirst({
+    workbox.strategies.CacheFirst({
       cacheName: 'User-cache',
     })
 ); 
@@ -24,8 +24,8 @@
         }),
       ],
     }),
-  );
- */
+  ); */
+
 /* workbox.precaching.precacheAndRoute([
   {
     "url": "css/main.css",
