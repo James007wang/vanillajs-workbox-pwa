@@ -6,7 +6,7 @@
 
  workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
-    workbox.strategies.cacheFirst({
+    new workbox.strategies.cacheFirst({
       cacheName: 'User-cache',
     })
 ); 
