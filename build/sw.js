@@ -10,6 +10,10 @@
   {
     "url": "js/app.js",
     "revision": "null"
+  },
+  {
+    "url": "css/main.css",
+    "revision": "nul"
   }
  ]);
 
