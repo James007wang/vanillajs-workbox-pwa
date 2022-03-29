@@ -1,6 +1,8 @@
 //ver 01
  importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
- console.log("workbox ready",new workbox.strategies.CacheFirst); 
+ //console.log("workbox ready",new workbox.strategies.CacheFirst); 
+
+ console.log("workbox ready"); 
 
  /* workbox.routing.registerRoute(
   new RegExp('https://jsonplaceholder.typicode.com/users'),
