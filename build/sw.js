@@ -9,7 +9,7 @@
   })
 ); 
  */
- workbox.precaching.precacheAndRoute([
+/*  workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
     "revision": "null"
@@ -22,7 +22,7 @@
     "url": "css/main.css",
     "revision": "null"
   }
- ]);
+ ]); */
 
  
 
