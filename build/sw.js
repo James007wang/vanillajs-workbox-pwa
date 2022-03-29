@@ -4,8 +4,8 @@
 
  workbox.precaching.precacheAndRoute([
   {
-    "url": "index.html",
-     "revision": "null" 
+    "url": "index.html"
+     
   },
   {
     "url": "js/app.js",
